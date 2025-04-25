@@ -35,4 +35,4 @@ version = "0.59.0"
 features = ["Win32_System_Threading"]
 
 [dependencies]
-nt-string = "0.1.1"
+nt-string = { version = "0.1.1", default-features = false, features = ["alloc", "allocator_api"] }
